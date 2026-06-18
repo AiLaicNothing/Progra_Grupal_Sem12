@@ -1,0 +1,8 @@
+Deben haber los siguientes nodos:
+Un nodo de introducción - Alessandro
+Un nodo de texto de narración - Alvaro
+Un nodo de diálogo - Francesca
+Un nodo de decisión - Martin
+Un nodo de efecto de transición - Roseling
+Un nodo de espera de input - Benja
+Un nodo de final - Boada
