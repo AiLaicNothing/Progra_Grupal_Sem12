@@ -3,7 +3,7 @@ using System;
 using UnityEngine.UIElements;
 [Serializable]
 
-public class NarrativeNode : GenericNode
+public class narrative : GenericNode
 {
     [SerializeField] string[] time=new string[]{"Daytime","Golden Hour","Night"};
     [SerializeField] string[] tone = new string[]{"Serious","Relaxed","Upset"};
