@@ -62,6 +62,13 @@ public class GraphImporter : ScriptedImporter
                     durationTransition = GetInputPortValue<float>(transitionNode.GetInputPortByName(transitionNode.Duration.ToString()))
                 });
                 break;
+            case EndNode endNode:
+                runtimeNodes.Add(new EndRuntimeNode
+                {
+                    endingTitle = endNode.EndingTitle,
+                    endingText = endNode.EndingText
+                });
+                break;
         }
         return runtimeNodes;
     }
